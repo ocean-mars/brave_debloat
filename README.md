@@ -12,7 +12,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 - Disable Telemetry (P3A, Stats Ping, Web Discovery)  
 - Remove News, Talk, Speedreader, Playlist, and Wayback Machine  
 - Disable Autofill, Password Manager, and Translation  
-- Leave Shields and Sync untouched
+- Shields, Sync & DoH untouched
 
 ## Linux
 1. Create the managed policies directory (if it doesn't exist): \
