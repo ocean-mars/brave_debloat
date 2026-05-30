@@ -16,7 +16,6 @@
     "AutofillCreditCardEnabled": false,
     "AutofillPredictionSettings": 2,
     "TranslateEnabled": false,
-    "SyncDisabled": true,
     "TorDisabled": true,
     "MediaRecommendationsEnabled": false,
     "BlockThirdPartyCookies": true,
@@ -56,5 +55,4 @@
     "BrowserSignin": 0,
     "HomepageIsNewTabPage": true,
     "SafeBrowsingProtectionLevel": 1,
-    "DnsOverHttpsMode": "automatic"
 }
