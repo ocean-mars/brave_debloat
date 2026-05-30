@@ -14,12 +14,12 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 - Disable Autofill, Password Manager, and Translation  
 - Leave Shields and Sync untouched
 
-- ## Linux
+## Linux
 1. Create the managed policies directory (if it doesn't exist): \
    `sudo mkdir -p /etc/brave/policies/managed/`
 2. Copy `policies.json` into the directory: \
    `cd /etc/brave/policies/managed/` \
-   `sudo curl -L -O `
+   `sudo curl -L -O https://raw.githubusercontent.com/ocean-mars/brave_debloat/refs/heads/main/policies.json`
 3. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
 
 ## Flatpak Version
@@ -27,7 +27,11 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
    `sudo mkdir -p /etc/brave/policies/managed/`
 2. Copy `policies.json` into the directory: \
    `cd /etc/brave/policies/managed/` \
-   `sudo curl -L -O `
+   `sudo curl -L -O https://raw.githubusercontent.com/ocean-mars/brave_debloat/refs/heads/main/policies.json`
 3. Grant the Flatpak app access to the policies directory: \
    `sudo flatpak override --filesystem=/etc/brave/policies/managed com.brave.Browser`
 4. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
+
+## Credits
+- mattvisa
+- MulesGaming
