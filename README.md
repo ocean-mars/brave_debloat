@@ -32,6 +32,8 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
    `sudo flatpak override --filesystem=/etc/brave/policies/managed com.brave.Browser`
 4. Restart Brave to apply the changes. Verify applied policies by visiting: `brave://policy/`
 
+## More
+- To learn more and understand about policy settings, visit [Instinctive](https://instinctive.app/chromesettings/)
 ## Credits
 - mattvisa
 - MulesGaming
