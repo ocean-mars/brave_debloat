@@ -25,7 +25,7 @@ This project disables **Brave AI, Rewards, Wallet, VPN, Telemetry, News, Talk, S
 **Alternatively,**
 - You can manually create the folder, `/etc/brave/policies/managed/`
 - Create file, `policies.json` (Any filename is allowed)
-- Copy-paste the policies from here [Policy Link](https://raw.githubusercontent.com/ocean-mars/brave_debloat/refs/heads/main/policies.json)
+- Copy-paste the policies, [Policy Link](https://raw.githubusercontent.com/ocean-mars/brave_debloat/refs/heads/main/policies.json)
 
 ## Flatpak Version
 1. Create the managed policies directory (if it doesn't exist): \
