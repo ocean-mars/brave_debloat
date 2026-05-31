@@ -16,6 +16,7 @@
     "AutofillCreditCardEnabled": false,
     "AutofillPredictionSettings": 2,
     "TranslateEnabled": false,
+    "SyncDisabled": true,
     "TorDisabled": true,
     "MediaRecommendationsEnabled": false,
     "BlockThirdPartyCookies": true,
@@ -41,5 +42,14 @@
     "WebRtcIPHandling": "disable_non_proxied_udp",
     "BrowserSignin": 0,
     "HomepageIsNewTabPage": true,
-    "SafeBrowsingProtectionLevel": 1
+    "BraveSyncUrl": "",
+    "DefaultGeolocationSetting": 2,
+    "DefaultNotificationsSetting": 2,
+    "DefaultLocalFontsSetting": 2,
+    "DefaultSensorsSetting": 2,
+    "DefaultSerialGuardSetting": 2,
+    "SafeBrowsingDeepScanningEnabled": false,
+    "AlternateErrorPagesEnabled": false,
+    "BrowserGuestModeEnabled": false,
+    "DnsOverHttpsMode": "automatic"
 }
