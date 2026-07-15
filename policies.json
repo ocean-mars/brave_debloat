@@ -50,6 +50,5 @@
     "DefaultSerialGuardSetting": 2,
     "SafeBrowsingDeepScanningEnabled": false,
     "AlternateErrorPagesEnabled": false,
-    "BrowserGuestModeEnabled": false,
-    "DnsOverHttpsMode": "automatic"
+    "BrowserGuestModeEnabled": false
 }
